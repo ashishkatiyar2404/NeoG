@@ -12,8 +12,15 @@ body {
 h1 {
   font-size: 4rem;
 }
-h3 {
+h2 {
   font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+span {
+  font-size: 1rem;
+  color: rgb(126, 130, 134);
 }
 .fas {
   font-weight: 600;
@@ -23,6 +30,21 @@ h3 {
   color: rgb(102, 103, 107);
 }
 .container {
-  display: flex;
-  /* flex-wrap: wrap; */
+  border: 1px solid red;
+  background-color: rgb(247, 247, 247);
+  /* display: flex; */
+}
+.card__common {
+  border: 1px solid blue;
+  margin: 0 auto;
+  width: 25vw;
+}
+.main_card {
+  /* width: 30vw; */
+  height: 60vh;
+}
+/* BASIC CARD */
+.card--img {
+  max-width: 100%;
+  max-height: 50%;
 }
