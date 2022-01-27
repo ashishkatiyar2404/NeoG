@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  text-decoration: none;
 }
 
 html {
@@ -34,8 +35,8 @@ span {
 }
 .container {
   background-color: rgb(247, 247, 247);
-  /* display: flex;
-  flex-wrap: wrap; */
+  display: flex;
+  flex-wrap: wrap;
   min-height: 100vh;
   border: 1px solid red;
 }
@@ -44,7 +45,8 @@ span {
   margin: 0.5rem auto;
 }
 .main_card {
-  min-height: 55vh;
+  /* min-height: 50vh; */
+  min-height: 20vh;
   box-shadow: black;
   border-radius: 1rem;
   background-color: white;
@@ -74,15 +76,72 @@ div.display_inline > a {
   color: rgb(118, 32, 240);
   text-transform: uppercase;
   font-size: bold;
-  text-decoration: none;
 }
 div.display_inline > a {
   font-size: 1.7rem;
 }
 div.display_inline > a,
 div.display_inline > i {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0.5rem;
   padding: 0.5rem;
-  background-color: blue;
+  /* background-color: blue; */
+}
+
+/* -----------BASIC w/Text over Media-------- */
+.card2 {
+  position: relative;
+  /* left: 10rem; */
+}
+.topic__author2 {
+  position: absolute;
+  top: 30vh;
+  color: white;
+  /* display: block; */
+}
+.topic__author-small2 {
+  color: white;
+  color: white;
+}
+
+/* -----------Basic w/ Header-------- */
+.card3 {
+  display: flex;
+  /* border: 1px solid black; */
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  /* margin: auto; */
+}
+.card__img03 {
+  border-radius: 0px;
+}
+
+.heading-card3 {
+  margin: 10px 10px;
+  padding: 5px 5px;
+}
+.bottom_style4 {
+  display: flex;
+  /* justify-content: flex-end; */
+}
+.card__action4 > a {
+  align-items: flex-start;
+}
+.card__action5 {
+  display: flex;
+  justify-content: flex-end;
+}
+.card__action5 > i {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.card__img06 {
+  width: 150px;
+  height: auto;
+  display: inline-block;
+  float: left;
+}
+.topic__author6 > h2,
+.topic__author6 > h3 {
+  margin-left: 150px;
 }
