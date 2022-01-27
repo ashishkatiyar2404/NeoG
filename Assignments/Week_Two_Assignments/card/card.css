@@ -9,9 +9,7 @@ html {
 }
 body {
   box-sizing: border-box;
-  background-color: rgb(126, 130, 134);
 }
-
 h1 {
   font-size: 3rem;
 }
@@ -35,10 +33,11 @@ span {
   font-size: 2rem;
 }
 .container {
-  /* border: 1px solid red; */
   background-color: rgb(247, 247, 247);
   /* display: flex;
   flex-wrap: wrap; */
+  min-height: 100vh;
+  border: 1px solid red;
 }
 .card__common {
   width: 25vw;
@@ -54,7 +53,7 @@ span {
 .common__space {
   padding: 2rem;
 }
-/* BASIC CARD */
+/* -----------BASIC CARD-------- */
 .card--img {
   max-width: 100%;
   max-height: 50%;
@@ -82,8 +81,8 @@ div.display_inline > a {
 }
 div.display_inline > a,
 div.display_inline > i {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   margin: 0.5rem;
   padding: 0.5rem;
-  /* background-color: blue; */
+  background-color: blue;
 }
